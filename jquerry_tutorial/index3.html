@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Layouts</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	</head>
+	<body>
+
+		
+		
+		<nav class="navbar navbar-inverse">
+		  	<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="#">Brand</a>
+			    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+
+			</nav>
+	
+		<div class="container">
+			<div id = "panelTop" class="panel panel-default">
+				<div class="panel-heading">
+					Panel 1
+				</div>
+				<div class="panel-body">
+					<button data-panelid = "panelLeft" type="button" data-panelid = "panelMid" class="btn btn-default panel-button">Left</button>
+			  		<button data-panelid = "panelMid"
+			  		type="button" class="btn btn-default panel-button">Middle</button>
+					<button data-panelid = "panelRight" type="button" class="btn btn-default panel-button">Right</button>
+				</div>
+			</div>
+
+
+			<div class="row"> 
+				<div class="col-sm-4 col-xs-12">
+					<div id = "panelLeft" class="panel panel-primary">
+					  <div class="panel-heading">
+					  Panel 1
+					  </div>
+					  <div class="panel-body">
+					  		Hola
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-sm-4 col-xs-12">
+					<div id = "panelMid" class="panel panel-primary">
+					  <div class="panel-heading">
+					  Panel Mid
+					  </div>
+					  <div class="panel-body">
+					  		Holi
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-sm-4 col-xs-12">
+					<div id = "panelRight" class="panel panel-primary">
+					  <div class="panel-heading">
+					  Panel Right
+					  </div>
+					  <div class="panel-body">
+					  		Holi
+					  </div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script>
+			
+			$(document).ready(function(){ 
+				
+				$('.panel-button').on('click', function(){
+					var panelId = $(this).attr('data-panelid');
+					$('#'+panelId).toggle();
+
+				});
+
+			});
+
+		</script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>	

@@ -1,0 +1,28 @@
+body{
+	background: gray;
+	font-family: verdana;
+}
+
+h1, h2{
+	color: pink;
+}
+
+a{
+	color: green;
+}
+
+p{
+	background: white;
+	color: black;
+	padding: 10px; 
+}
+
+.secondary{
+	background: yellow;
+	color: black;
+}
+
+#special{
+	background: white;
+	color: black;
+}

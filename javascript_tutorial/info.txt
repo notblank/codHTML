@@ -1,0 +1,27 @@
+- First Class Functions. 
+	funciones sirven como argumentos (main.js). 
+
+- Event-Driven Function
+
+	loads and stays in memmory waiting. Only runs the piece of script needed. 
+
+	PhP no hace esto. Solo carga la pâgina y deja de funcionar. 
+
+	obs: el orden de los scripts es importante. Poner jquerry primero que el main2.js. 
+
+- Closures
+	
+	keeps var a alive. Retains state and scope after execution.
+
+	Closures retain states and scopes. 
+
+	Memory leak: can free memory when piece of code is not necessary. 
+
+- Scope
+	
+	scope == variable access.
+	context == value of this.
+
+- Context
+	
+	context ==  value of this.

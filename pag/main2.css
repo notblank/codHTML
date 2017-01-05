@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: gray;
+	color: white;
+	margin: 0;
+}
+
+header h1{
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	background: pink;
+}
+
+nav ul li{
+	display: inline-block; /*mismo con inline/ mas opt*/
+	list-style-type: none;
+	padding: 5px 10px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.col {
+	background: gray;
+	float: left;
+	margin: 1%;
+	width: 20%;
+}
