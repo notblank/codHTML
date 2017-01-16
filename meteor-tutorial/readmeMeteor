@@ -1,0 +1,100 @@
+Meteor uses mongodb as opposed to php. 
+
+https://www.meteor.com/tutorials/angular/creating-an-app
+
+could be used to create an account login by installing the appropriate package (check atmosphere). 
+
+=== meteor react tutorial ====
+
+create the project.
+cd to the project then run meteorhttps://www.meteor.com/tutorials/react/creating-an-app
+meteor npm install
+meteor
+
+=== meteor-seminar === 
+
+https://www.youtube.com/watch?v=Cx2TlBjsBOo
+
+meteor run ios for iphone // will run the ios simulator
+						  // works only on mac.
+
+
+client folder -> gets executed on the webbrowser
+server folder -> gets executed on the server
+
+html files have no html tag.	
+
+
+*** java script review: 
+
+	(now let is used instead) var is used to define any type of variables. 
+	console.log most values can be printed as strings using %s.
+
+	simple for loops.
+
+	can feed functios to functions.
+
+	objects:
+		var s = {
+			name: "Roger",
+			year: 2016,
+			gender: "M"
+			};
+
+		can have no values or as many as you like.
+
+	arrays:
+		[];
+		can contain different types and change types.
+		array has properties, it is an object.
+		can have infinite size.
+
+	list of students is built as objects, call it section. Can use list as the for argument.
+
+
+meteor directory -normally dont touch.
+
+template tag is not in html - they are little modules.
+also {{#each task}} gets each element in the task variable.
+
+mongodB you dont define your tables(just as with java script).
+
+idea of meteor is to not use mongodB but js;
+
+in javascrip to add elements.
+	fetch is to get object from db. Use insert command as in mongo.
+
+	Installing packages:
+
+		meteor add package_name (see athmophere)
+
+		recommended: jquerry,
+					 houston-admin -my admin,
+
+=== meteor intro ===
+
+componentes: 
+	command line tool;
+	view layer -react
+	livequery
+	fullstack package system
+	build system
+
+
+live updates instead of refresh and multiuser collaboration.
+
+Code demo (live chat):
+	
+	html , footer has form for input messages.
+
+	server and client manipulation in js file.
+
+
+
+
+
+
+
+
+
+

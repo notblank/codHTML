@@ -9,7 +9,7 @@ var svg =  d3.select("#canvas")
 
 
 /*
-	typed: python3 -m http.server to create a local server
+	typed: python -m http.server to create a local server
 	open webpage on localhost:8000
 	https://stackoverflow.com/questions/10752055/cross-origin-requests-are-only-supported-for-http-error-when-loading-a-local#
 */

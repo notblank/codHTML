@@ -1,0 +1,85 @@
+=== cs 50 React tutorial === 
+
+https://www.youtube.com/watch?v=B8hhLbXDYro&t=3s
+
+React is webframework tools to structure and build Apps.
+(developed by facbook)
+
+React DOM
+	web
+Reac Native
+
+
+React: 
+	build interphases.
+	Builds on components 
+		html on steriods: own behavior contained(time, like counter).
+
+webapps = sum(components)
+
+components are interactive/composable/imperative
+
+
+unidirectional data flow:
+
+	Data -> some components -> back to data.
+
+	ex:
+		instagram: post objects (data) -> render something on the screen. Then, comp edits data (likes, comments on posts).
+
+
+Renders any data source (Going back uses flux). 
+
+code:
+	github.com/hathix/cs-50semiars/react
+
+tu run react in codepen (without install):
+	is.gd/cs50react
+
+=== intro to javascript/html ===
+	jsforcats.com
+	htmldog.com
+
+=== Flash Card up example ===
+
+1* Your first Component:
+	
+	Create a class that can render something
+		Print on the screen. 
+    	Returns some html.
+
+	where:
+	React.render(<App />, document.getElementById('page'));
+
+2* Customize comps with props:
+
+	App: given any card object, print content of card.
+	Can publish cardView and App. You can create your cards.
+
+3* Internal states to interact:
+	
+	card: keep track of face up/down;
+	facebook: where on the feed;
+	messanger: text in the input box. 
+
+	temporary states are called states.
+	
+	No manual rerendering -> render the whole page based on changes in the data (only the differences shadowDOM).
+
+
+4* Embed Components
+	
+	another component (listview).
+
+	two parts: one for rading the cardlist, another for embedding the ListView component.
+
+
+ES6:
+	here we use let instead of var (better version of var).
+
+Using react:
+	facebook.git.iu/react
+
+	intalling is hard:
+		use generators: build react with components built in (yeoman). All the grunt work done for you.
+
