@@ -1,12 +1,9 @@
-
-
 var width = 700;
 	height = 500;
 
 var svg =  d3.select("#canvas")
 		.attr("width", width)
 		.attr("height", height)
-
 
 /*
 	typed: python -m http.server to create a local server
@@ -16,16 +13,19 @@ var svg =  d3.select("#canvas")
 
 // real data via public API.
 
-
 d3.json("data.json", function(data) {
 
 	var scale = d3.scaleLinear()
 		.domain([1, 200])
 		.range([20, width - 40]);
 
+	var scaleOp = d3.scaleLinear()
+		.domain([1, 200])
+		.range([0, 1]);
+
 	var color = d3.scaleLinear()
 		.domain([1, 200])
-		.range(["red", "orange"]);
+		.range(["red", "purple"]);
 
 	var circle = svg.selectAll("circle")
 			.data(data)

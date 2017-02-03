@@ -94,7 +94,52 @@ Code demo (live chat):
 
 
 
+=== New tutorial === 
+https://www.youtube.com/watch?v=nXfeN8L-Tbo&list=PLLnpHn493BHGGHRmdXip3GswwLWY9S6of&index=3
 
+vid #2
+you will not access to most of the things in the local folder (execpt for packages).
 
+local contains most of the info.
 
+Client folder contains things  that run on the client side.
+Server: idem but for server. 
+
+vid #3
+Adding React to meteor
+
+meteor npm install 
+meteor npm install --save react react-dom
+
+vid #4
+imports folder and components basics.
+
+imports contians a client and a server folders. 
+to avoid wrappings with if client, server things. 
+
+App.js goes into client. Before importing you have to export the file.
+	export default:  default is used to avoid { } when importing. 
+
+React can have component states, events, or anything from java.
+
+vid #5
+react state. 
+
+install package highlight jsx (already have babel)
+
+before states add contructor. A method to set states. 
+	super allows you to acces functions from object's parents.
+
+	state refresh with the page.
+
+Another important part is the parent-child relationships between components. 
+
+	can put components inside components. 
+
+	pass data from comonents to components.
+	olny parent -> child direction
+
+	<Heading count={this.state.count}/>
+
+	count is defined as a prop of Heading.
 

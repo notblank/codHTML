@@ -1,0 +1,26 @@
+.fill {
+  /*color océano*/
+  fill: #ffffff;
+}
+
+.boundary {
+  fill: none;
+  stroke: #303030;
+  stroke-width: .5px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -10px 0 0 0;
+  top: 100%;
+  left: 0;
+}
